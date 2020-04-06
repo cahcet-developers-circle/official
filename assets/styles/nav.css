@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+/* nav */
+nav{
+    position: fixed !important;
+    background-color:transparent;
+    width: 100%;
+    height: 85px;
+    z-index: 9999;
+}
+  .navbar-nav > li{
+    margin-left:8px;
+    margin-right:8px;
+  }
+li .a{
+    position: relative !important;
+    padding: 0 30px;
+    margin: 0 2px;
+    width: 12rem;
+    text-align: center;
+    color:white !important ;
+    text-decoration: none;
+    font-size: 16px;
+    border: 3px solid cyan;
+    padding: 10px 20px;
+    overflow: hidden;
+    transition:.5s all ease;
+    text-transform: uppercase;
+}
+li .acv{
+    position: relative;
+    padding: 0 30px;
+    margin: 0 2px;
+    width: 12rem;
+    text-align: center;
+    color:white !important;
+    text-decoration: none;
+    font-size: 16px;
+    border: 3px solid white;
+    padding: 10px 20px;
+    overflow: hidden;
+    transition:.5s all ease;
+    border-radius: 16px;
+    text-transform: uppercase;
+}
+
+li .a:hover{
+    background:rgba(0, 0, 0, 0.644);
+    border-color: royalblue;
+    
+}
+li .acv:hover{
+    background:rgba(0, 0, 0, 0.644);
+}
+
+ .colour{
+    background: #615d5dbb;
+ 
+ }
+ .landscreen{
+    background: url("../images/bg1.gif") center no-repeat;
+    background-size: cover;
+     width: 100%;
+     height: 100vh;
+     isolation: isolate;
+ }
+ .landscreen2{
+    background: url("../images/bg2.gif") center no-repeat;
+    background-size: cover;
+     width: 100%;
+     height: 100vh;
+     isolation: isolate;
+ }
+ @media screen and (max-width:768px){
+     nav{
+        position: absolute;
+        background:rgb(0, 0, 0);
+     }
+     nav *{
+        background:rgb(0, 0, 0);
+     }
+    .navbar-nav > li{
+        margin-top:25px;
+        margin-left:95px;
+        margin-bottom:15px;
+        
+      }
+      .last{
+          height: 50vh;
+          background:rgb(0, 0, 0) ;
+      }
+    .links li .item{
+        
+        font-size: 18px;
+    }
+    .navbar-nav > li{
+        margin-top:25px;
+        margin-left:85px;
+      }
+      .nav-links li a{
+        
+        font-size: 18px;
+    }
+    .logo{
+        position: relative;
+        width:80px;
+        z-index:20;
+    }
+ }

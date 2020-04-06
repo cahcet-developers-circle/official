@@ -1,0 +1,85 @@
+.container,.container-fluid{
+    text-align: center;
+    padding-top: 200px;
+   
+}
+.container-fluid ul li{
+    list-style: none;
+}
+.mainhead{
+    margin-top: 3%;
+    color: gold;
+    text-shadow: 2px 2px 4px black;
+}
+.preft1{
+    background: url("../images/bg2.jpeg") center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    isolation: isolate;
+}
+.con{
+    background:url("../images/bg3.jpg") center -34rem no-repeat;
+    width: 100vw;
+    height: 100vh;
+    isolation: isolate;
+}
+.points{
+    margin-bottom: 3%;
+    font-size:25px;
+    font-weight:bold;
+    font-family: 'Old Standard TT', serif;
+    color:white;
+}
+.base{
+    font-weight:bold;
+    font-family: 'Old Standard TT', serif;
+    color: purple;
+}
+.basecont{
+    line-height:2;
+    background: url("../images/bg4.jpeg") center no-repeat;
+    background-size:cover;
+    font-size: 1.5rem;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    isolation: isolate;
+}
+.basecont .f{
+    margin-top: -5%;
+}
+.prtns{
+margin-top: -10%;
+}
+footer{
+    background: #eeeeee;
+}
+footer h2{
+    text-align: center;
+}
+.row{
+    text-align: center;
+}
+.sclmda a{
+    text-decoration: none !important;
+}
+
+@media screen and (max-width:768px){
+    .base{
+        margin-top: 5%;
+        color: white;
+    }
+    .basecont{
+        background: url("../images/mobbg.jpeg") center no-repeat;
+        background-attachment: fixed;
+        width: 100vw;
+        height: 100vh;
+        isolation: isolate;
+    }
+    .basecont .f{
+        margin-top:-30%;
+    }
+}
