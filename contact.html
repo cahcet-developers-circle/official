@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+   <title>Reach Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>   
+    <link href="Style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div>
+            <div class="container">
+                <div class="contact-parent">
+                    <div class="contact-child child1">
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i> Address <br />
+                            <span>Melvisharam, Vellore DIST
+                                <br />
+                               TamilNadu
+                            </span>
+                        </p>
+
+                        <p>
+                            <i class="fas fa-phone-alt"></i> Let's Talk <br />
+                            <span>+91 9791493365</span>
+                        </p>
+
+                        <p>
+                            <i class=" far fa-envelope"></i> General Support <br />
+                            <span>cdc.cahcet@gmail.com</span>
+                        </p>
+                    </div>
+
+                    <div class="contact-child child2">
+                        <div class="inside-contact">
+                            <h2>Contact Us</h2>
+                            <h3>
+                               <span id="confirm">
+                            </h3>
+				<form action="https://script.google.com/macros/s/AKfycbyR9DxhzskQx6zF4fnuF9oddqTKg0AYmXfMEK_eMg/exec" method="POST">
+					<p>Name *</p>
+                            <input name="name" type="text" Required="required">
+
+                            <p>Email *</p>
+                            <input name="email" type="email" Required="required">
+
+                            <p>Phone *</p>
+                            <input name="phone" type="text" Required="required">
+
+                            <p>Subject *</p>
+                            <input name="subject" type="text" Required="required">
+
+                            <p>Message *</p>
+                            <textarea name="message" rows="4" cols="20" Required="required" ></textarea>
+                            
+                            <input type="submit" id="btn_send" value="SEND" onclick="doTheThing()">
+				</form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<script>
+        function doTheThing() {
+            setTimeout(function () {
+                location.reload();
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
